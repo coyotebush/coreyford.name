@@ -217,6 +217,15 @@ i.fa-hn {
   color: white;
 }
 
+i.fa-at {
+  font-family: "open sans", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px !important;
+  position: relative;
+  color: white;
+}
+
 .home {
   font-size: 24px;
   float: right;
