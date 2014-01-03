@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Inconsolata:400,700);
+body {
+  max-width: 133vh;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 5vh;
+  line-height: 1.4;
+  background: #D7D3C8;
+}
+h1, section {
+  min-height: 104vh;
+  padding: 8vh;
+}
+code, pre {
+  font-family: Inconsolata, monospace;
+  font-size: 1.15em;
+  letter-spacing: normal;
+}
+h1, h2 {
+  font-weight: normal;
+  letter-spacing: -0.04em;
+  line-height: 100%;
+  margin: 0;
+}
+h1 {
+  font-size: 1.5em;
+}
+h1 pre.sub {
+  font-size: 0.66em;
+}
+h1 p {
+  font-size: 0.5em;
+  letter-spacing: -0.04em;
+}
+h2 {
+  position: sticky;
+  top: 0.3em;
+  font-weight: 300;
+  font-size: 1.5em;
+  padding: 0.5em;
+  background: #F6F4EC;
+}
+p, ul, li, .demo {
+  margin: 1em 0;
+}
+a:-moz-any-link {
+  color: #0095DD;
+  text-decoration: none;
+}
+a:hover {
+  color: #00539F;
+  text-decoration: underline;
+}
+blockquote {
+  font-size: 0.7em;
+}
+blockquote p {
+  text-indent: 2em;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" charset="utf-8">
+    <meta name="author" content="Corey Ford">
+    <meta name="date" content="2013-09-05">
+    <title>Sticky Positioning</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <h1>
+    <pre>
+h2 {
+  position: sticky;
+}</pre>
+    <p>Corey Ford<br>(<code>corey</code> in <code>#layout</code>)<br><br>2013-09-05</p>
+  </h1>
+  <section>
+    <h2>What is sticky positioning?</h2>
+    <p>A new type of <strong>CSS positioning</strong>
+    <p><img src="positioning.svg" alt="Relationships between static, relative, sticky, fixed, absolute positioning" style="width:100%"></p>
+    <p>In the flow of the document<br>(like <code>position: relative</code>)</p>
+    <p>Doesn't always scroll with the page<br>(like <code>position: fixed</code>)</p>
+  </section>
+  <section>
+    <h2>A specification</h2>
+    <blockquote>
+      <p>A sticky positioned box is <strong>first laid out in the normal flow</strong> (equivalent to position: static). The box may be repositioned as follows, but as with relative positioning, any repositioning does not affect the box that follows.
+      <p>The box's position depends on its <strong>containing block</strong> (established as for position:static) as well as its <strong>scrolling container</strong>, defined by the nearest ancestor in the same document with a computed value for 'overflow-x' or 'overflow-y' other than 'visible', or the viewport if no such ancestor exists.
+      <p>For any of 'top', 'bottom', 'left', and 'right' that are not 'auto', if the box's normal position would cause that edge of its border box to be less than the specified distance within that content edge of its scrolling container, the box is repositioned to that distance from the edge, such that the box does not move while the container scrolls. The distance the box is repositioned is limited such that the element's margin box never crosses the opposite edge of the content box of its containing block, with the effect that the element starts scrolling with its container again when it reaches the end of its containing block. (If 'top', 'bottom', 'left', and 'right' are all 'auto', the effect will be identical to relative positioning with those values). None of these properties affect the width or height of the element. Percentage values of these properties reference the content box of the scrolling container (but margins and padding are still computed in terms of the containing block).
+      <p>If both 'top' and 'bottom' are not 'auto' and the element's border box is taller than the content box height of the scrolling container minus the sum of 'top' and 'bottom', then only 'top' is considered and 'bottom' is ignored. Similar logic applies for 'left' and 'right' with widths, except that if the 'direction' property of the containing block is 'ltr', 'right' is ignored, and if it is 'rtl', 'left' is ignored.
+    </blockquote>
+  </section>
+  <section>
+    <h2>Examples</h2>
+    <ul>
+      <li>Section headers
+      <ul>
+        <li><a href="http://www.brianhadaway.com/iphone-apple-style-alphabetical-contact-lists-in-html-css-javascript-jquery/">iOS lists</a>
+        <li>This page (no JS)!
+      </ul>
+      <li>Table headers
+      <li>Sidebars
+    </ul>
+    <p>Many sites implement a similar effect in JS, but this hurts scrolling performance.
+  </section>
+  <section>
+    <h2>History</h2>
+    <ul>
+      <li>June 2012: <a href="http://lists.w3.org/Archives/Public/www-style/2012Jun/0627.html">Proposed by Apple</a>
+      <li>Summer 2012: <a href="https://bugs.webkit.org/show_bug.cgi?id=90046">Implemented in WebKit</a>
+      <li>Summer 2013: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=886646">Implemented in Gecko</a>
+    </ul>
+  </section>
+  <section>
+    <h2>Implementation</h2>
+    <p>Sticky positioning depends on the sizes and positions of the element itself, its containing block, and its scroll container.</p>
+    <p>Calculated when
+    <ul>
+      <li>Sticky element reflows
+      <li>Scroll container reflows
+      <li>Scroll container scrolls
+    </ul>
+  </section>
+  <section>
+    <h2>Async scrolling integration</h2>
+    <p>Android, B2G, Metro use <a href="http://air.mozilla.org/async/">async panning and zooming</a></p>
+    <p>For <code>position: fixed</code>, we apply the inverse translation to the layer</p>
+    <p>For <code>position: sticky</code>, we intersect the inverse translation with certain scroll intervals where the layer should not move
+  </section>
+  <section>
+    <h2>Try it</h2>
+    <div style="text-align: center">
+      <p><img src="firefox-nightly.png" alt="Nightly" style="height: 50vh"></p>
+      <p><code>layout.css.sticky.enabled</code></p>
+    </div>
+  </section>
+  <section>
+    <h2>Thanks!</h2>
+    <ul>
+      <li>dbaron
+      <li>jet
+      <li>roc
+      <li>dholbert
+    </ul>
+  </section>
+  </body>
+</html>
+<!-- vim: set ts=2 sts=2 sw=2 et ai: -->
