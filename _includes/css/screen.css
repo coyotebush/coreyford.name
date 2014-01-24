@@ -142,6 +142,11 @@ nav hr {
   border: none;
 }
 
+#post img.pull {
+  float: right;
+  margin: 10px;
+}
+
 .sidebar {
   padding-top: 25px;
   font-family: "open sans", sans-serif;
