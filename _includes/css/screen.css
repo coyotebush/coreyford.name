@@ -142,6 +142,11 @@ nav hr {
   border: none;
 }
 
+#post img {
+  max-width: 100%;
+  height: auto;
+}
+
 #post img.pull {
   float: right;
   margin: 10px;
