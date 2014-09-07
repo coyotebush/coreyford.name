@@ -3,15 +3,11 @@
   <a href="/">
     <img src="/logo.png" id="logo" alt="Blog logo"/>
   </a>
-  <h2>I'm <a href="/">{{ site.theme.name }}</a>.</h2>
-  <hr/>
-  <ul>
-  <p>I'm a Computer Science student at <a href="http://www.calpoly.edu/">Cal Poly</a> in beautiful San Luis Obispo, California.</p>
-  <hr/>
-  <div>
-    <div id="social">
-      {% include social.html %}
-    </div>
+  <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
+  <div id="bio">
+    <p>I'm a Computer Science student at <a href="http://www.calpoly.edu/">Cal Poly</a> in beautiful San Luis Obispo, California.</p>
   </div>
-  </ul>
+  <div id="social">
+    {% include social.html %}
+  </div>
 </nav>
