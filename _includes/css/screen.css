@@ -223,18 +223,19 @@ nav h1, nav h2 {
 i.fa-hn {
   font-family: "open sans", sans-serif;
   text-align: center;
-  font-size: 18px !important;
   position: relative;
-  color: white;
 }
 
-i.fa-at {
+.fa-stack i.text {
   font-family: "open sans", sans-serif;
   font-weight: bold;
   text-align: center;
-  font-size: 18px !important;
   position: relative;
-  color: white;
+}
+
+.fa-stack i:last-child {
+	color: white;
+  font-size: 18px !important;
 }
 
 .home {
