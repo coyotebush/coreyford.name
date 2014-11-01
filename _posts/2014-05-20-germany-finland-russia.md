@@ -26,7 +26,7 @@ My destination was the lovely [Lebensgarten][] community in the town of Steyerbe
 Easter: Helsinki and St. Petersburg
 ---
 
-Easter is a four-day weekend in Sweden, and I joined a five-day trip to Helsinki and St. Petersburg organized by the folks at [Bigland][].
+Easter is a four-day weekend in Sweden, and I joined a five-day trip to Helsinki and St. Petersburg organized by [Bigland][].
 
 The schedule, starting from Stockholm, involved two 16-hour overnight ferry trips in each direction. Friday and Tuesday were spent in Helsinki; with a few others, I walked around that somewhat sleepy city and visited the [Suomenlinna][] fortress.  
 
@@ -52,7 +52,7 @@ Saturday through Monday, in St. Petersburg, we had a group of about a dozen and 
 
  * unassuming cafés serving good food: soups, [*blini*][blini], [*pirogi*][pirog], and so on
 
-... all very cheaply, by Western European standards.
+... all very cheaply by Western European standards.
 The weather was wonderfully sunny and warm all weekend.
 
 In a word, my taste of St. Petersburg was one of *grandeur*---everything from the museums to the metro done in a large and ornate fashion. I don't know how much this reflects the influence of Russian values relative to that of European (particularly Italian) ones.
