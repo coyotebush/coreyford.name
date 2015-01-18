@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/coyotebush
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.coreyford.name
+  * I am coyotebush (https://keybase.io/coyotebush) on keybase.
+  * I have a public key with fingerprint 8AE8 3D54 29C7 2B78 54C0  A274 F745 EA21 9F68 D026
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "8ae83d5429c72b7854c0a274f745ea219f68d026",
+            "host": "keybase.io",
+            "key_id": "F745EA219F68D026",
+            "uid": "b0dae63aaa50cff17a491fbb73ba2c00",
+            "username": "coyotebush"
+        },
+        "merkle_root": {
+            "ctime": 1421603039,
+            "hash": "098b290740cc6c0bf76153200c291d24f0aa00e00a04cf2687081974a0bb269397d1bdc8f01d1afa14ef0b6bef39d3ae58ae8070bf48ab83136c8b830fbc1990",
+            "seqno": 134363
+        },
+        "service": {
+            "hostname": "www.coreyford.name",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1421603461,
+    "expire_in": 157680000,
+    "prev": "04975884038c18cec11c68bae21dea7142e457074b19dacb7926e08476a99718",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFVkntQFVUAxi+CEiiPmglrUpR1snLoes7u3n0YMOCAYgNqeCGgmNvZs2e9m3gX
+9i4XboD5YlLEB00ZzBQ2lGiN00SB02gxJC9FTVGZnDItBKQAkWg0dZJ2iabcf3b3
+nN/5zvd95+wLC7SFBtxJ+S3mgPv84oDTv0o25/HfK0opSZP91LJSCuerxGNYXx60
+kVDLqA3ELyEvsavaQo8mE/vr3oXTTCzlI7pX1TwmBey8naHKYy3cWqyonvVEL9BV
+S4sSEBEY2cHSIuZpiRccLAaI5lmFZx0E0VBUOEEGNGdKujWv8dCu1JSmS5XN0RUm
+n5Jk8is4IfkfvmhqQgIyIhyDEHIArCiQR6wIFUniGQnRGAAL9BJ9OhLW/JpBpCKv
+23K8kegb8olL17Sp2NhQLQiyNOQAAxjR9IRM0swoChItAp4FGHMYSArPQQdDA4Bp
+Eco0qwCEACAAIMBiheYEHghQ5FkEJInmREbkZSjJWFAAlCFSEGSJAiROIgojygwi
+DqsmwJvCrIAkgYEMhwXzDRQJQ1G0QnhJoUczzTEswzHl1r/uUzGxfFvFTecrLi62
+Y00nfkXTZfvUYCxVoGuGhrV8c95tGAXLrOiGv6B5agGRXNNSLkn1yObh/f90oYk+
+XAvLwViKlBSoOnGpFuHgOQGYj7UP8VllsSLvEAQWMAKGAiYYQswJEiI0lAniTR3C
+OnizTAmKMsISL9IcAQLLc0gUeSj8F9Zh+kTrTUmvut6DjCKdUOU7Z8wLsgWE2mbN
+nGFdX1toSOS/dzooPWKyhMtrr4jz4sbSI80JlQ/yV84zglTWv/xYZ0lhVWVD9fdh
+6tZDdwOfKvPsv/nCd3mvfHKta1N72pLRuYELhi+MH/igbiY9ezBy/rr6ia//eKbq
+qm+NM/9wza62pedzvqzpuXUq7rA/58ZIR0Z/jO345syht5Pv9+aWbTkQ1pm4aFPH
+QFL0tZcr4sKzF6dGFN0Wz86qHuM+h7V7Ch8bIKf0gtsj9sspZwrPVaZ35Q3GH/ss
+vqZuS2Lyjshehlu1rSum11k+PJnV3pJivHlfavk5fMlA18V+xLMZecGeZ9moM96E
+pAfLty96Ljyz+o0tW5XYhXcD+uLu1T/ek71t96UrO671z30/YgxtdP20ZswVFZGx
+tndl47vG2N6Jyh9zG1YpI3p9z9MLbFkfpi2KCykct5+4WNcdvLVd/yHtRvSJHr3Q
+2TuadCvsydag/NROfk7ja2fdHz0YeqS58c9fUouuvzqhzB4fiICjV+uo1lScmq7u
+yN7riX/++mDo9rUzy3JfWprmrtu5b3BT2IU9X5xus88pebTy8nCgtzt4/Oj8t7Ku
+rK5tQVdv1h6s3xaaGOUzmJP9CUd3+zIPOp1NIReGTuc88c5JUn1IFbJu+e0DI4wv
+ISFscv/Hqy9x3wzA7FZ37br3vs2Mb2p6sSF2d0ZfnzNX/jRm3YaROx1tkff853D4
+mar+6Ky/jmz+qhts/hs=
+=Ps04
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/coyotebush
+
+==================================================================
