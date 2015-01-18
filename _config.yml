@@ -3,3 +3,4 @@ highlighter: pygments
 url: http://coreyford.name
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+include: [.well-known]
